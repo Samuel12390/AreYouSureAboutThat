@@ -9,11 +9,11 @@ public class Overreaction {
         System.out.println("Alright. Question #" + questionNumber + ", You're up! Make it quick, man. I don't got all day.");
     }
 
+    String getQuestion() { return question; }
+
     void respondToTheQuestion() {
         System.out.print("What do you mean, " + question + " ,!? Are you calling me fat");
     }
-
-    int getQuestionNumber() { return questionNumber; }
 
 }
 

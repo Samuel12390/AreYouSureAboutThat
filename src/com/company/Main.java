@@ -15,9 +15,10 @@ public class Main {
         question3.questionNumber = 3;
 
         Overreaction question4 = new Overreaction();
-        question4 .questionNumber = 4;
+        question4.questionNumber = 4;
 
-    //Acknowledge thr question number
+        //Question Asker #1
         question1.acknowledgeQuestionNumber();
+        System.out.println(question1.getQuestion());
     }
 }
