@@ -1,10 +1,14 @@
 package com.company;
 
-public class Doubt {
+ class Doubt extends Main {
     int questionNumber;
     boolean yes;
+    public String question;
 
-    void respond() {
+
+     String getQuestion() { return question; }
+
+     void respond() {
 
         if (yes) {
             System.out.println("Yeah, sure. Whatever.");

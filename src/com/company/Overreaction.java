@@ -1,8 +1,8 @@
 package com.company;
 
-public class Overreaction {
+class Overreaction extends Main {
     int questionNumber;
-    String question;
+    public String question;
 
 
     void acknowledgeQuestionNumber() {
@@ -12,7 +12,7 @@ public class Overreaction {
     String getQuestion() { return question; }
 
     void respondToTheQuestion() {
-        System.out.print("What do you mean, " + question + " ,!? Are you calling me fat");
+        System.out.println("What do you mean, " + question + "!? Are you calling me fat");
     }
 
 }
