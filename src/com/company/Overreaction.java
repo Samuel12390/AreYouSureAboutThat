@@ -1,6 +1,6 @@
 package com.company;
 
-class Overreaction extends Main {
+class Overreaction extends Question {
     int questionNumber;
     public String question;
 

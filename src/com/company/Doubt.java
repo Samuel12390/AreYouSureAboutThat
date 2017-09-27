@@ -1,6 +1,6 @@
 package com.company;
 
- class Doubt extends Main {
+ class Doubt extends Question {
     int questionNumber;
     boolean yes;
     public String question;
