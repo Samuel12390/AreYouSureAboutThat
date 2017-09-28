@@ -1,8 +1,6 @@
 package com.company;
 
 class Overreaction extends Question {
-    public String question;
-
 
     void acknowledgeQuestionNumber() {
         System.out.println("Alright. Question #" + questionNumber + ", You're up! Make it quick, man. I don't got all day.");

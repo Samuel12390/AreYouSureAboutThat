@@ -1,7 +1,6 @@
 package com.company;
 
  class Doubt extends Question {
-     int questionNumber;
      boolean iAgree;
 
      String getQuestion() {
