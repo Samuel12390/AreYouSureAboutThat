@@ -1,7 +1,6 @@
 package com.company;
 
 class Overreaction extends Question {
-    int questionNumber;
     public String question;
 
 

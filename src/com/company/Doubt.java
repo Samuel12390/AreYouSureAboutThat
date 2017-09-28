@@ -1,22 +1,23 @@
 package com.company;
 
  class Doubt extends Question {
-    int questionNumber;
-    boolean yes;
-    public String question;
+     int questionNumber;
+     boolean iAgree;
 
-
-     String getQuestion() { return question; }
+     String getQuestion() {
+         return question;
+     }
 
      void respond() {
+         System.out.println("Well, I mean...");
 
-        if (yes) {
-            System.out.println("Yeah, sure. Whatever.");
-        } else {
-            System.out.println("What the hell is wrong with you!? Of course not!.");
-        }
-    }
-}
+         if (iAgree) {
+             System.out.println("Yeah sure. Whatever.");
+         } else {
+             System.out.println("Wait! What the hell is wrong with you, man?! Of course not!");
+         }
+     }
+ }
 
 
 
